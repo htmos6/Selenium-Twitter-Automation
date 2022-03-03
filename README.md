@@ -1,5 +1,5 @@
 # selenium-twitter
-Automatic like bot for Twitter. Searches hashtag and writes their tweets to a .txt file.
+Automatic tweet like bot for Twitter. Searches hashtag and writes their tweets to a .txt file.
 
 For twitter_auto_like.py & twitter_auto_login.py you should enter your 
 Username --> Line 20
