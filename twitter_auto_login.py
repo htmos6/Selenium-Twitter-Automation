@@ -52,7 +52,7 @@ while(match==False) and counter_for_scroll <= 5:
 time.sleep(10)
 tweets = driver.find_elements(By.CSS_SELECTOR, ".css-901oao.r-1fmj7o5.r-37j5jr.r-a023e6.r-16dba41.r-rjixqe.r-bcqeeo.r-bnwqim.r-qvutc0")
 
-with open("ZeytinimeDokunmaTweets.txt",'w',encoding='utf-8') as file:
+with open("Enter-Hastag-What-You-Want-To-Search.txt",'w',encoding='utf-8') as file:
     tweet_ct = 1
     for tweet in tweets:
         file.write("*************************\n")
